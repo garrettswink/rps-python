@@ -17,6 +17,7 @@ while True:
     user_choice = int(input("What do you choose? Type 0 for Rock, 1 for Paper, or 2 for Scissors. \n"))
 
     # Print the ASCII art from the game_images list at the index stored in the user_choice variable
+    # Note the syntax order, which runs counter to what I would intuitively think.
     print(game_images[user_choice])
 
     # Select a random integer btwn 0-2 using the random module; Store in computer_choice module
